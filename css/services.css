@@ -1,0 +1,168 @@
+body{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    background-color: white;
+    align-items: end;
+    position: fixed;
+}
+.inbox1{
+    background-color: black;
+    width: 20vw;
+    height: 20vh;
+}
+.inbox1 > h1{
+    color: white;
+    text-align: end;
+    font-size: 2vh 2vw;
+    font-family: open;
+    padding-right: 2.5vw;
+    padding-left: 5vw;
+    margin-top: 8%;
+    font-family: "Bebas Neue", sans-serif;
+}
+.p1{
+    font-size: 60%;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: end;
+    padding-right: 2.5vw;
+    padding-left: 5vw;
+    margin-top: -25px;
+}
+.p2{
+    font-size: 120%;
+    color: white;
+    text-align: end;
+    padding-right: 2.5vw;
+    padding-left: 6.5vw;
+    margin-top: -5px;
+}
+.inbox2{
+    background-color: rgb(250, 230, 50);
+    width: 20vw;
+    height: 13.5vh;
+}
+#menu{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox3{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 18.5vh;
+}
+.inbox3 > ul{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu1{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox4{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 14.5vh;
+    border-top: solid lightgray 1px;
+}
+.inbox4 > ul{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu2{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox5{
+    background-color: rgb(252, 252, 252);
+    width: 20vw;
+    height: 5.5vh;
+    border-top: solid lightgray 1px;
+}
+.inbox5 > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.icone{
+    width: 20px ;
+    padding: 4px;
+    opacity: 0.20;
+}
+.inbox6{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 27.9vh;
+    border-top: solid lightgray 1px;
+    text-align: end;
+}
+.copy{
+    margin-right: 2.5vw;
+    margin-top: 4.5%;
+    font-size: 12px;
+}
+#quadro{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    margin-left: 21.3vw;
+    border: solid lightgray 5%;
+    background-color: white;
+}
+.tabela{
+    border: solid black 2px;
+    text-align: center;
+}
+.iconpage{
+    width: 40px ;
+    padding: 25px;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.tabela1 ,th ,td{
+    border: solid black 3px;
+
+}
+.tabela1 th:hover{
+    background-color: rgb(250, 230, 50);
+}

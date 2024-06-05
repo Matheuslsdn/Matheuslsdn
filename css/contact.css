@@ -1,0 +1,214 @@
+body{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    margin-top: -1.8vh;
+    padding: 0;
+    background-color: lightgrey;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 102vh;
+    background-color: white;
+    align-items: end;
+    position: fixed;
+}
+.inbox1{
+    background-color: black;
+    width: 20vw;
+    height: 20vh;
+}
+.inbox1 > h1{
+    color: white;
+    text-align: end;
+    font-size: 2vh 2vw;
+    padding-right: 2.5vw;
+    padding-left: 5vw;
+    margin-top: 8%;
+}
+.p1{
+    font-size: 60%;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: end;
+    padding-right: 2.5vw;
+    padding-left: 5vw;
+    margin-top: -25px;
+}
+.p2{
+    font-size: 120%;
+    color: white;
+    text-align: end;
+    padding-right: 2.5vw;
+    padding-left: 6.5vw;
+    margin-top: -5px;
+}
+.inbox2{
+    background-color: rgb(250, 230, 50);
+    width: 20vw;
+    height: 13.5vh;
+}
+#menu{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox3{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 18.5vh;
+}
+.inbox3 > ul{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu1{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox4{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 14.5vh;
+    border-top: solid lightgray 1px;
+}
+.inbox4 > ul{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu2{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox5{
+    background-color: rgb(252, 252, 252);
+    width: 20vw;
+    height: 5.5vh;
+    border-top: solid lightgray 1px;
+}
+.inbox5 > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.icone{
+    width: 20px ;
+    padding: 4px;
+    opacity: 0.20;
+}
+.inbox6{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 27.9vh;
+    border-top: solid lightgray 1px;
+    text-align: end;
+}
+.copy{
+    margin-right: 2.5vw;
+    margin-top: 4.5%;
+    font-size: 12px;
+}
+.contato{
+    width: 50vw;
+    margin-left: 22.5vw;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid black;
+    padding: 3%;
+}
+form fieldset{
+    padding: 0 0;
+    border: none;
+}
+form legend{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 36px 0;
+}
+.colunaesquerda {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex: 1;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 8px;
+}
+.input-group input {
+    width: 40%;
+    height: 40px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+}
+
+.colunadireita {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 47%;
+    
+}
+
+.colunadireita textarea {
+    width: 100%;
+    height: 99px;
+    padding: 10px;
+    margin-top: -41.5%;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px 20px;
+    border: none;
+    border-radius: 1px;
+    background-color: rgb(250, 230, 50);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    align-self: flex-end;
+    width: 104%;
+    height: 50px;
+    margin: 10px;
+    margin-right: -4%;
+}

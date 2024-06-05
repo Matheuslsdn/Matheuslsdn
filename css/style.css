@@ -1,0 +1,462 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(148, 148, 148);
+    font-family: "Bebas Neue", sans-serif;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+} 
+#box{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    background-color: white;
+    align-items: end;
+    position: fixed;
+}
+.inbox1{
+    background-color: black;
+    width: 20vw;
+    height: 20vh;
+}
+.inbox1 > h1{
+    color: white;
+    text-align: end;
+    font-size: 2vh 2vw;
+    font-family: open;
+    padding-right: 2.5vw;
+    padding-left: 5vw;
+    margin-top: 8%;
+    font-family: "Bebas Neue", sans-serif;
+}
+.p1{
+    font-size: 60%;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: end;
+    padding-left: 9.5vw;
+    margin-top: -25px;
+}
+.p2{
+    font-size: 120%;
+    color: white;
+    text-align: end;
+
+    padding-left: 6.5vw;
+    margin-top: -5px;
+}
+.inbox2{
+    background-color: rgb(250, 230, 50);
+    width: 20vw;
+    height: 13.5vh;
+}
+#menu{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox3{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 18.5vh;
+}
+.inbox3 > ul{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu1{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox4{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 14.5vh;
+    border-top: solid lightgray 1px;
+}
+.inbox4 > ul{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.amenu2{
+    color: black;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 0.75%;
+}
+.inbox5{
+    background-color: rgb(252, 252, 252);
+    width: 20vw;
+    height: 5.5vh;
+    border-top: solid lightgray 1px;
+}
+.inbox5 > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: end;
+    list-style-type: none;
+    margin-right: 2.5vw;
+    margin-top: 3%;
+}
+.icone{
+    width: 20px ;
+    padding: 4px;
+    opacity: 0.20;
+}
+.inbox6{
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 27.9vh;
+    border-top: solid lightgray 1px;
+    text-align: end;
+}
+.copy{
+    margin-right: 2.5vw;
+    margin-top: 4.5%;
+    font-size: 12px;
+}
+.home{
+    width: 75vw;
+    margin-left: 22vw;
+
+}
+.num1{
+    float: left;
+    width: 22.6vw;
+    max-width: 22.6vw;
+    border: 1px solid rgb(89, 89, 89);
+    height: 525px;
+    margin-top: 2.5%;
+    background-color: white;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -160px;
+}
+.botoes button{
+    border: none;
+}
+.prev img{
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: none;
+}
+.next img{
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: none;
+}
+.num1 .img1{
+    width: 100%;
+    max-height: 270px;
+    height: 270px;
+}
+.num1 h3{
+    margin-left: 5%;
+    height: 1.6em;
+    margin-top: 120px;
+}
+.num1 p{
+    margin-left: 5%;
+    margin-right: 6%;
+    height: 1.6em;
+    color: black;
+}
+.num1 .display{
+    text-align: center;
+    align-items: center;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 20vw;
+    max-width: 22.6vw;
+    margin-top: 15.5%;
+    padding-left: -30%;
+}
+.like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: -10px 20px;
+    width: 7vw;
+    color: black;
+}
+.like .imagi1{
+    width: 15%;
+    height: 25px;
+}
+.like .tit1{
+    padding-left: 1.5%;
+    margin-left: 1.5%;
+    color: black;
+}
+.comentario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: -10px 20px;
+    width: 8vw;
+    color: black;
+}
+.comentario .imagi2{
+    width: 15%;
+    height: 25px;
+}
+.comentario .tit2{
+    padding-left: 1.5%;
+    margin-left: 1.5%;
+    color: black;
+}
+.calendario{
+    display: flex;
+    align-items: center;
+    margin: -10px 20px;
+    width: calc(15vw + 10px);
+    
+    color: black;
+}
+.calendario .imagi3{
+    width: 6.5%;
+    height: 25px;
+
+}
+.calendario .tit3{
+    padding-left: 1.5%;
+    margin-left: 1.5%;
+    color: black;
+}
+.num2{
+    float: left;
+    background-color: rgb(41, 41, 41);
+    width: 22.6vw;
+    max-width: 22.6vw;
+    border: 15px solid rgb(250, 230, 50);
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 2.5%;
+}
+.num2 h3, h5{
+    color: white;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-align: center;
+}
+.num3 img{
+    float: right;
+    width: 22.6vw;
+    max-width: 22.6vw;
+    height: 375px;
+    border: 1px solid rgb(73, 73, 73);
+    margin-top: 2.5%;
+}
+.num4 img{
+    float: left;
+    width: 22.6vw;
+    max-width: 22.6vw;
+    height: 375px;
+    border: 1px solid rgb(73, 73, 73);
+    margin-top: 50px;
+}
+.num4{
+    clear: both;
+}
+.num5{
+    float: left;
+    width: calc(22.6vw + 29px);
+    max-width: calc(22.6vw + 29px);
+    border: 1px solid rgb(89, 89, 89);
+    height: 575px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: -22%;
+    background-color: white;
+}
+.num5:hover{
+    background-color: rgb(2, 2, 2);
+    opacity: 0.7;
+    color: white;
+}
+.num5 .img1{
+    width: 100%;
+    height: 300px;
+}
+.num5 h3{
+    margin-left: 5%;
+    height: 1.6em;
+}
+.num5 p{
+    margin-left: 5%;
+    margin-right: 6%;
+    height: 1.6em;
+    color: black;
+}
+.num5 .display{
+    text-align: center;
+    align-items: center;
+}
+.num6{
+    float: right;
+    width: 22.6vw;
+    max-width: 22.6vw;
+    height: 210px;
+    border: 1px solid rgb(89, 89, 89);
+    background-color: rgb(250, 230, 50);
+    margin-left: 2.5vw;
+    margin-top: -25.5%;
+    text-align: center;
+}
+.num6 img{
+    width: 10%;
+    height: 40px;
+    margin-top: 5px;
+}
+.num6 h3 {
+    margin-top: 7.5%;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-align: center;
+    color: black;
+    font-family: "Cormorant Infant", serif;
+    height: 1.6em;
+    font-weight: 900;
+    font-size: 24px;
+}
+.num6 h4{
+    text-align: center;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: -1%;
+}
+.num7{
+    clear: both;
+}
+.num7{
+    float: left;
+    width: calc( 22.6vw - 15px);
+    max-width: 22.6vw;
+    border-left: 17px solid rgb(250, 230, 50);
+    background-color: black;
+    margin-top: 4%;
+}
+.num7 h2, p{
+    color: white;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding-left: -2.5%;
+}
+.num8{
+    float: left;
+    width: calc(22.6vw + 29px);
+    max-width: calc(22.6vw + 29px);
+    border: 1px solid rgb(89, 89, 89);
+    height: 575px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: -7.5%;
+    background-color: white;
+}
+.num8:hover{
+    background-color: rgb(2, 2, 2);
+    opacity: 0.7;
+    color: white;
+}
+.num8 img{
+    width: 100%;
+    height: 300px;
+}
+.num8 h3{
+    margin-left: 5%;
+    height: 1.6em;
+}
+.num8 p{
+    margin-left: 5%;
+    margin-right: 6%;
+    height: 1.6em;
+    color: black;
+}
+.num8 .display{
+    text-align: center;
+    align-items: center;
+}
+.num9{
+    float: right;
+    width: 22.6vw;
+    max-width: 22.6vw;
+    border: 1px solid  rgb(89, 89, 89);
+    height: 575px;
+    margin-top: -18.5%;
+    background-color: white;
+}
+.num9:hover{
+    background-color: rgb(2, 2, 2);
+    opacity: 0.7;
+    color: white;
+}
+.num9 img{
+    width: 100%;
+    height: 300px;
+}
+.num9 h3{
+    margin-left: 5%;
+    height: 1.6em;
+}
+.num9 p{
+    color: black;
+    margin-left: 5%;
+    margin-right: 6%;
+    height: 1.6em;
+}
+.num9 .display{
+    text-align: center;
+    align-items: center;
+}
+.button{
+    clear: both;
+}
+.button{
+    float: left;
+    background-color: rgb(250, 230, 50);
+    padding: 35px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 32.5vw;
+    margin-top: 2%;
+    border: none;
+    margin-bottom: 1.5%;
+}
